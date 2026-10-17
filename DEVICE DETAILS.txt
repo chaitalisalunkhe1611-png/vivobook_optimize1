@@ -1,0 +1,422 @@
+
+~ 
+> sudo ./laptop_audit.sh | tee ~/laptop_audit_output.txt
+[sudo: authenticate] Password:       
+UBUNTU LAPTOP FULL SYSTEM AUDIT
+Generated on: Fri Oct 16 09:59:23 PM IST 2026
+Current User: root
+
+================================================================================
+  1. SYSTEM, CHASSIS & BIOS/UEFI FIRMWARE
+================================================================================
+  Static hostname: chaitu-Vivobook-ASUSLaptop-X1605VA-X1605VA
+        Icon name: computer-laptop
+          Chassis: laptop 💻
+Chassis Asset Tag: No Asset Tag
+       Machine ID: ecdd51fcd75a42ed81f84318f31f0990
+          Boot ID: 2c5f77d87da242b9aad94c3516ea6f3a
+     Product UUID: 2af0ed40-2676-8544-8698-db287756d0f1
+ Operating System: Ubuntu 26.04.1 LTS
+           Kernel: Linux 7.2.6-070206-generic
+     Architecture: x86-64
+  Hardware Vendor: ASUSTeK COMPUTER INC.
+   Hardware Model: Vivobook_ASUSLaptop X1605VA_X1605VA
+  Hardware Serial: T3N0CV037093108
+ Hardware Version: 1.0
+ Firmware Version: X1605VA.313
+    Firmware Date: Wed 2025-05-21
+     Firmware Age: 1y 4month 3w 5d
+
+--- Motherboard & BIOS Details ---
+	Vendor: American Megatrends International, LLC.
+	Version: X1605VA.313
+	Release Date: 05/21/2025
+	Manufacturer: ASUSTeK COMPUTER INC.
+	Product Name: Vivobook_ASUSLaptop X1605VA_X1605VA
+	Version: 1.0       
+	Serial Number: T3N0CV037093108
+	Manufacturer: ASUSTeK COMPUTER INC.
+	Product Name: X1605VA
+	Version: 1.0       
+	Serial Number: T209NBCV00LYF5MB
+
+================================================================================
+  2. OPERATING SYSTEM, KERNEL & DESKTOP ENVIRONMENT
+================================================================================
+Distributor ID:	Ubuntu
+Description:	Ubuntu 26.04.1 LTS
+Release:	26.04
+Codename:	resolute
+
+Kernel Version : Linux 7.2.6-070206-generic x86_64 GNU/Linux
+Uptime         : up 33 minutes
+Desktop Session: ubuntu:GNOME (N/A)
+Shell          : /bin/bash
+Installed Pkgs : 2537 (APT/dpkg) | 18 (Snaps)
+
+================================================================================
+  3. CPU (PROCESSOR) ARCHITECTURE & SPECS
+================================================================================
+Architecture:                            x86_64
+CPU(s):                                  12
+On-line CPU(s) list:                     0-11
+Model name:                              13th Gen Intel(R) Core(TM) i5-13420H
+Thread(s) per core:                      2
+Core(s) per socket:                      8
+Socket(s):                               1
+CPU(s) scaling MHz:                      47%
+CPU max MHz:                             4600.0000
+CPU min MHz:                             400.0000
+Virtualization:                          VT-x
+L1d cache:                               320 KiB (8 instances)
+L1i cache:                               384 KiB (8 instances)
+L2 cache:                                7 MiB (5 instances)
+L3 cache:                                12 MiB (1 instance)
+NUMA node0 CPU(s):                       0-11
+Vulnerability L1tf:                      Not affected
+
+================================================================================
+  4. MEMORY (RAM) & SWAP USAGE
+================================================================================
+               total        used        free      shared  buff/cache   available
+Mem:            14Gi       2.9Gi       9.8Gi        49Mi       2.4Gi        11Gi
+Swap:           11Gi          0B        11Gi
+
+--- Physical RAM Sticks Installed ---
+	Error Correction Type: None
+	Size: 8 GB
+	Locator: Controller0-ChannelA
+	Bank Locator: BANK 0
+	Type: DDR4
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Part Number: M378A1G44CB0-CWE    
+	Configured Memory Speed: 3200 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 8 GB
+	Cache Size: None
+	Logical Size: None
+	Size: 8 GB
+	Locator: Controller1-ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: DDR4
+	Speed: 3200 MT/s
+	Manufacturer: Micron Technology
+	Part Number: 4ATF1G64HZ-3G2F1    
+	Configured Memory Speed: 3200 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 8 GB
+	Cache Size: None
+	Logical Size: None
+
+================================================================================
+  5. GRAPHICS (GPU) & DISPLAY DRIVERS
+================================================================================
+0000:00:02.0 VGA compatible controller [0300]: Intel Corporation Raptor Lake-P [UHD Graphics] [8086:a7a8] (rev 04)
+	DeviceName: VGA
+	Subsystem: ASUSTeK Computer Inc. Device [1043:1743]
+	Kernel driver in use: xe
+	Kernel modules: i915, xe
+
+--- Active OpenGL / Renderer Info ---
+MESA: warning: Support for this platform is experimental with Xe KMD, bug reports may be ignored.
+name of display: :0
+display: :0  screen: 0
+direct rendering: Yes
+Extended renderer info (GLX_MESA_query_renderer):
+    Vendor: Intel (0x8086)
+    Device: Mesa Intel(R) Graphics (RPL-P) (0xa7a8)
+    Version: 26.0.8
+    Accelerated: yes
+    Video memory: 15107MB
+    Unified memory: yes
+    Preferred profile: core (0x1)
+    Max core profile version: 4.6
+    Max compat profile version: 4.6
+    Max GLES1 profile version: 1.1
+    Max GLES[23] profile version: 3.2
+OpenGL vendor string: Intel
+OpenGL renderer string: Mesa Intel(R) Graphics (RPL-P)
+OpenGL core profile version string: 4.6 (Core Profile) Mesa 26.0.8-1ubuntu0.3
+OpenGL core profile shading language version string: 4.60
+OpenGL core profile context flags: (none)
+OpenGL core profile profile mask: core profile
+
+OpenGL version string: 4.6 (Compatibility Profile) Mesa 26.0.8-1ubuntu0.3
+OpenGL shading language version string: 4.60
+OpenGL context flags: (none)
+OpenGL profile mask: compatibility profile
+
+OpenGL ES profile version string: OpenGL ES 3.2 Mesa 26.0.8-1ubuntu0.3
+OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.20
+
+
+================================================================================
+  6. ALL PCI HARDWARE & ACTIVE KERNEL DRIVERS
+================================================================================
+0000:00:00.0 Host bridge: Intel Corporation Device a716
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+	Kernel driver in use: igen6_edac
+	Kernel modules: igen6_edac
+0000:00:02.0 VGA compatible controller: Intel Corporation Raptor Lake-P [UHD Graphics] (rev 04)
+	DeviceName: VGA
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+	Kernel driver in use: xe
+	Kernel modules: i915, xe
+0000:00:04.0 Signal processing controller: Intel Corporation Raptor Lake Dynamic Platform and Thermal Framework Processor Participant
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+	Kernel driver in use: proc_thermal_pci
+	Kernel modules: processor_thermal_device_pci
+0000:00:06.0 System peripheral: Intel Corporation RST VMD Managed Controller
+0000:00:08.0 System peripheral: Intel Corporation GNA Scoring Accelerator module
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+0000:00:0a.0 Signal processing controller: Intel Corporation Raptor Lake Crashlog and Telemetry (rev 01)
+	Kernel driver in use: intel_vsec
+	Kernel modules: intel_vsec
+0000:00:0e.0 RAID bus controller: Intel Corporation RST Volume Management Device Controller
+	Subsystem: Intel Corporation Device 0000
+	Kernel driver in use: vmd
+	Kernel modules: vmd
+0000:00:14.0 USB controller: Intel Corporation Alder Lake PCH USB 3.2 xHCI Host Controller (rev 01)
+	Subsystem: ASUSTeK Computer Inc. Device 201f
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+0000:00:14.2 RAM memory: Intel Corporation Alder Lake PCH Shared SRAM (rev 01)
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+0000:00:15.0 Serial bus controller: Intel Corporation Alder Lake PCH Serial IO I2C Controller #0 (rev 01)
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+	Kernel driver in use: intel-lpss
+	Kernel modules: intel_lpss_pci
+0000:00:15.1 Serial bus controller: Intel Corporation Alder Lake PCH Serial IO I2C Controller #1 (rev 01)
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+	Kernel driver in use: intel-lpss
+	Kernel modules: intel_lpss_pci
+0000:00:16.0 Communication controller: Intel Corporation Alder Lake PCH HECI Controller (rev 01)
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+	Kernel driver in use: mei_me
+	Kernel modules: mei_me
+0000:00:1c.0 PCI bridge: Intel Corporation Device 51b8 (rev 01)
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+0000:00:1c.6 PCI bridge: Intel Corporation Device 51be (rev 01)
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+0000:00:1f.0 ISA bridge: Intel Corporation Raptor Lake LPC/eSPI Controller (rev 01)
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+0000:00:1f.3 Audio device: Intel Corporation Raptor Lake-P/U/H cAVS (rev 01)
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_soc_avs, snd_sof_pci_intel_tgl, snd_hda_intel
+0000:00:1f.4 SMBus: Intel Corporation Alder Lake PCH-P SMBus Host Controller (rev 01)
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c_i801
+0000:00:1f.5 Serial bus controller: Intel Corporation Alder Lake-P PCH SPI Controller (rev 01)
+	Subsystem: ASUSTeK Computer Inc. Device 1743
+	Kernel driver in use: intel-spi
+	Kernel modules: spi_intel_pci
+0000:02:00.0 Network controller: MEDIATEK Corp. MT7902 802.11ax PCIe Wireless Network Adapter [Filogic 310]
+	DeviceName: WLAN
+	Subsystem: AzureWave Device 5520
+	Kernel driver in use: mt7921e
+	Kernel modules: mt7921e
+10000:e0:06.0 PCI bridge: Intel Corporation Raptor Lake PCI Express 4.0 Graphics Port
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+10000:e1:00.0 Non-Volatile memory controller: Micron Technology Inc 2500 NVMe SSD (DRAM-less) (rev 01)
+	Subsystem: Micron Technology Inc Device 1100
+	Kernel driver in use: nvme
+	Kernel modules: nvme
+
+================================================================================
+  7. PROPRIETARY / UBUNTU RECOMMENDED DRIVERS
+================================================================================
+
+================================================================================
+  8. USB DEVICES & CONTROLLERS
+================================================================================
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 17ef:60ff Lenovo Lenovo 130 Wireless Mouse
+Bus 001 Device 003: ID 3277:0036 ShineTech USB2.0 HD UVC WebCam
+Bus 001 Device 004: ID 13d3:3579 IMC Networks Wireless_Device
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+
+================================================================================
+  9. STORAGE DISKS, PARTITIONS & FILESYSTEMS
+================================================================================
+NAME        MODEL                     SIZE TYPE FSTYPE   MOUNTPOINT                          UUID
+loop0                                   8M loop squashfs /snap/audioroute/1                  
+loop1                                13.1M loop squashfs /snap/canonical-livepatch/414       
+loop2                                   4K loop squashfs /snap/bare/5                        
+loop3                                63.8M loop squashfs /snap/core20/2866                   
+loop4                               529.8M loop squashfs /snap/code/270                      
+loop5                               514.4M loop squashfs /snap/code/271                      
+loop6                                63.8M loop squashfs /snap/core20/2922                   
+loop7                                  74M loop squashfs /snap/core22/2955                   
+loop8                                66.8M loop squashfs /snap/core24/1643                   
+loop9                                66.8M loop squashfs /snap/core24/2124                   
+loop10                               14.2M loop squashfs /snap/desktop-security-center/188   
+loop11                               12.7M loop squashfs /snap/firmware-updater/258          
+loop12                               12.7M loop squashfs /snap/firmware-updater/262          
+loop13                               14.2M loop squashfs /snap/desktop-security-center/206   
+loop14                              614.5M loop squashfs /snap/gnome-46-2404/164             
+loop15                              242.6M loop squashfs /snap/gaming-graphics-core24/13     
+loop16                              615.3M loop squashfs /snap/gnome-46-2404/168             
+loop17                               91.7M loop squashfs /snap/gtk-common-themes/1535        
+loop18                                 55M loop squashfs /snap/icon-theme-papirus/187        
+loop19                                402M loop squashfs /snap/mesa-2404/1839                
+loop20                               18.8M loop squashfs /snap/prompting-client/222          
+loop21                               50.3M loop squashfs /snap/snapd/27738                   
+loop22                               18.4M loop squashfs /snap/prompting-client/228          
+loop23                               44.7M loop squashfs /snap/snapd/28254                   
+loop24                                828K loop squashfs /snap/snapd-desktop-integration/391 
+loop25                              291.2M loop squashfs /snap/steam/279                     
+loop26                              291.2M loop squashfs /snap/steam/271                     
+loop27                               13.2M loop squashfs /snap/canonical-livepatch/418       
+zram0                                 7.4G disk swap     [SWAP]                              6941b65f-e599-42ec-a534-65f704237767
+nvme0n1     MTFDKBA512QGN-1BN1AABGA 476.9G disk                                              
+├─nvme0n1p1                             1G part vfat     /boot/efi                           5BF8-9850
+└─nvme0n1p2                         475.9G part ext4     /                                   59c6eb3b-6049-4678-87f9-7d6fb28c102b
+
+--- Disk Space Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  468G   61G  383G  14% /
+efivarfs        192K  139K   49K  75% /sys/firmware/efi/efivars
+/dev/nvme0n1p1  1.1G  6.4M  1.1G   1% /boot/efi
+
+================================================================================
+  10. AUDIO & SOUND SUBSYSTEM
+================================================================================
+ 0 [PCH            ]: HDA-Intel - HDA Intel PCH
+                      HDA Intel PCH at 0x6005240000 irq 168
+
+--- Audio Server Info ---
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+================================================================================
+  11. NETWORK INTERFACES, WI-FI & BLUETOOTH
+================================================================================
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+wlo1             UP             10.162.191.55/24 2409:40c0:6a:e65a:810c:5556:5a82:fca8/64 2409:40c0:6a:e65a:b49f:4696:fe1c:128b/64 fe80::a5ff:694:f1e3:32b2/64 
+
+--- Network Devices & Drivers ---
+DEVICE        TYPE      STATE                   CONNECTION     
+wlo1          wifi      connected               chaitali's M55 
+lo            loopback  connected (externally)  lo             
+p2p-dev-wlo1  wifi-p2p  disconnected            --             
+
+================================================================================
+  12. LAPTOP BATTERY HEALTH & POWER STATUS
+================================================================================
+  vendor:               ASUSTeK
+  model:                ASUS Battery
+    state:               fully-charged
+    warning-level:       none
+    energy-full:         37.611 Wh
+    energy-full-design:  42.067 Wh
+    voltage-min-design:  11.85 V
+    capacity-level:      Full
+    energy-rate:         0 W
+    voltage:             12.796 V
+    charge-cycles:       115
+    percentage:          100%
+    capacity:            89.4074%
+  History (voltage):
+
+================================================================================
+  13. THERMAL SENSORS & TEMPERATURES
+================================================================================
+asus-isa-000a
+Adapter: ISA adapter
+cpu_fan:     1500 RPM
+pwm1:             N/A
+
+nvme-pci-e100
+Adapter: PCI adapter
+Composite:    +29.9°C  (low  =  -5.2°C, high = +85.8°C)
+                       (crit = +87.8°C)
+Sensor 1:     +29.9°C  (low  = -273.1°C, high = +65261.8°C)
+
+BAT0-acpi-0
+Adapter: ACPI interface
+in0:          12.80 V  
+power1:        0.00 W  
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +51.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 0:        +51.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 4:        +48.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 8:        +50.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 12:       +51.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 20:       +49.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 21:       +49.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 22:       +49.0°C  (high = +100.0°C, crit = +100.0°C)
+Core 23:       +49.0°C  (high = +100.0°C, crit = +100.0°C)
+
+mt7921_phy0-pci-0200
+Adapter: PCI adapter
+temp1:        +41.0°C  
+
+ucsi_source_psy_USBC000:001-isa-0000
+Adapter: ISA adapter
+in0:           0.00 V  (min =  +0.00 V, max =  +0.00 V)
+curr1:         0.00 A  (max =  +0.00 A)
+
+acpitz-acpi-0
+Adapter: ACPI interface
+temp1:        +66.0°C  
+
+
+================================================================================
+  14. LOADED KERNEL MODULES (TOP 40)
+================================================================================
+Module                  Size  Used by
+ccm                    20480  2
+rfcomm                110592  4
+algif_hash             16384  1
+algif_skcipher         12288  1
+af_alg                 32768  6 algif_hash,algif_skcipher
+snd_seq_dummy          16384  0
+snd_hrtimer            16384  1
+snd_hda_codec_intelhdmi    24576  1
+snd_hda_codec_hdmi     65536  1 snd_hda_codec_intelhdmi
+snd_hda_codec_alc269   159744  1
+snd_hda_codec_realtek_lib    69632  1 snd_hda_codec_alc269
+snd_hda_scodec_component    20480  1 snd_hda_codec_alc269
+snd_hda_codec_generic   131072  2 snd_hda_codec_realtek_lib,snd_hda_codec_alc269
+ip6t_REJECT            12288  1
+nf_reject_ipv6         24576  1 ip6t_REJECT
+xt_hl                  12288  22
+bnep                   36864  2
+ip6t_rt                16384  3
+snd_hda_intel          65536  1
+snd_sof_pci_intel_tgl    16384  0
+snd_sof_pci_intel_cnl    20480  1 snd_sof_pci_intel_tgl
+snd_sof_intel_hda_generic    36864  2 snd_sof_pci_intel_tgl,snd_sof_pci_intel_cnl
+soundwire_intel        86016  1 snd_sof_intel_hda_generic
+snd_sof_intel_hda_sdw_bpt    20480  1 soundwire_intel
+ipt_REJECT             12288  1
+snd_sof_intel_hda_common   204800  4 snd_sof_intel_hda_sdw_bpt,snd_sof_intel_hda_generic,snd_sof_pci_intel_tgl,snd_sof_pci_intel_cnl
+nf_reject_ipv4         12288  1 ipt_REJECT
+snd_soc_hdac_hda       20480  1 snd_sof_intel_hda_common
+xt_LOG                 16384  10
+snd_sof_intel_hda_mlink    49152  4 snd_sof_intel_hda_sdw_bpt,soundwire_intel,snd_sof_intel_hda_common,snd_sof_intel_hda_generic
+nf_log_syslog          20480  10
+snd_sof_intel_hda      24576  2 snd_sof_intel_hda_common,snd_sof_intel_hda_generic
+soundwire_cadence      53248  1 soundwire_intel
+snd_sof_pci            24576  3 snd_sof_intel_hda_generic,snd_sof_pci_intel_tgl,snd_sof_pci_intel_cnl
+snd_sof_xtensa_dsp     12288  1 snd_sof_intel_hda_generic
+nft_limit              16384  13
+snd_sof               450560  6 snd_sof_intel_hda_sdw_bpt,snd_sof_pci,snd_sof_intel_hda_common,snd_sof_intel_hda_generic,snd_sof_intel_hda,snd_sof_pci_intel_cnl
+snd_sof_utils          16384  1 snd_sof
+snd_soc_acpi_intel_match   151552  3 snd_sof_intel_hda_generic,snd_sof_pci_intel_tgl,snd_sof_pci_intel_cnl
+
+Full audit complete! Saved a copy to: /root/laptop_full_report_2026-10-16_21-59-23.txt
+
+~  took 3s
+> 
+
